@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Bugph</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<link href='css/style.css' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="http://www.bugph.com/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<div class="top">
+			<div class="inTop">
+				<div class="logo"></div>
+				<div class="menu">
+					<ul>
+						<li><a href="/" id="cadastro">Cadastre-se</a></li>
+						<li><a href="bugph.html" id="bugph">O que é Bugph?</a></li>
+						<li> <a id="contato">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clr"></div>
+			<div class="screenShot"></div>
+		</div>
+		<div class="inFooter">
+			<h1>Vem ai um novo jeito de se divertir com as coias que deram errado!</h1>
+			<h2>Cadastre seu e-mail e receba um convite para a versão beta assim que sair, se não der bug, hehehe.</h2>
+			<div class="inputEmail">
+				<input type="text" id="fieldEmail" value="Digite seu e-mail">
+				<div class="buttonSend">ENVIAR</div>
+			</div>
+			<div class="clr"></div>
+			<div><a href="http://bugph.com">bugph.com</a></div>
+		</div>
+
+
+
+		<!-- Javascript -->
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/engine.js"></script>
+		<!-- UserVoice JavaScript SDK (only needed once on a page) -->
+		<script>(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/9AuNrmlJK8pqzCSZopaedQ.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()</script>
+
+		<!-- A tab to launch the Classic Widget -->
+		<script>
+		UserVoice = window.UserVoice || [];
+		UserVoice.push(['showTab', 'classic_widget', {
+		  mode: 'feedback',
+		  primary_color: '#005953',
+		  link_color: '#6d9b63',
+		  forum_id: 221984,
+		  support_tab_name: 'Suporte',
+		  feedback_tab_name: 'Feedback',
+		  tab_label: 'Feedback',
+		  tab_color: '#006760',
+		  tab_position: 'middle-right',
+		  tab_inverted: false
+		}]);
+		</script>
+	</body>
+</html>
