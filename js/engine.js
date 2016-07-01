@@ -41,7 +41,7 @@ $('#contato').click(function (){
 });
 
 $('.logo').click(function(){
-	location.href = "http://bugph.com";
+	location.href = "/";
 });
 
 $('.buttonSend').click(function (){
